@@ -260,6 +260,41 @@ h1, h2, h3, h4 {
   background-color: #a0794f;
 }
 
+/* Modal styles */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 1000; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 15% auto; /* Center the modal */
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 400px; /* Max width for small screens */
+  text-align: center;
+}
+
+.close-button {
+  color: #ff0055;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close-button:hover,
+.close-button:focus {
+  color: #ff6600;
+}
+
 /* --- Responsive Styles --- */
 /* --- Responsive Styles --- */
 @media (max-width: 768px) {

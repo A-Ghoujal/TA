@@ -78,6 +78,23 @@
     </form>
   </section>
 
+  <!-- Success Modal -->
+<div id="successModal" class="modal">
+  <div class="modal-content">
+    <span class="close-button" onclick="closeModal('successModal')">&times;</span>
+    <p>Thank you for contacting us! <br> We will reply as soon as possible :D</p>
+  </div>
+</div>
+
+<!-- Error Modal -->
+<div id="errorModal" class="modal">
+  <div class="modal-content">
+    <span class="close-button" onclick="closeModal('errorModal')">&times;</span>
+    <p>Failed to send message. Please try again.</p>
+  </div>
+</div>
+
+
   <!-- Include EmailJS library -->
   <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"></script>
   
